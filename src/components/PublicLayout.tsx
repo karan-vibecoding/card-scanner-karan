@@ -80,7 +80,7 @@ export default function PublicLayout() {
             <img
               src="/logo.png"
               alt="Expo Snap Logo"
-              className="h-8"
+              className="h-10 w-auto"
               loading="eager"
             />
           </Link>
