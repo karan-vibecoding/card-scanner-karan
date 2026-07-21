@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /scan
+Disallow: /cards
+Disallow: /export
+
+Sitemap: https://exposnap.app/sitemap.xml

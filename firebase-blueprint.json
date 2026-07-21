@@ -1,0 +1,21 @@
+{
+  "project_id": "n8n-story-gsheet",
+  "collections": [
+    {
+      "name": "cards",
+      "description": "Scanned business cards",
+      "security_rules": {
+        "read": "request.auth != null && request.auth.uid == resource.data.userId",
+        "write": "request.auth != null && request.auth.uid == request.resource.data.userId"
+      }
+    },
+    {
+      "name": "categories",
+      "description": "User created categories",
+      "security_rules": {
+        "read": "request.auth != null && request.auth.uid == resource.data.userId",
+        "write": "request.auth != null && request.auth.uid == request.resource.data.userId"
+      }
+    }
+  ]
+}
