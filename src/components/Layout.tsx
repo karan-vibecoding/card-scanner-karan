@@ -33,8 +33,7 @@ export default function Layout() {
       )}>
         <div className="h-16 flex items-center justify-between px-6 border-b border-gray-200 shrink-0">
           <div className="flex items-center">
-            <img src="/logo.png" alt="Expo Snap Logo" className="w-8 h-8 mr-2" />
-            <span className="text-xl font-bold tracking-tight">Expo Snap</span>
+            <img src="/logo.png" alt="Expo Snap Logo" className="w-8 h-8" />
           </div>
           <button 
             className="lg:hidden p-2 text-gray-500 hover:text-gray-700 hover:bg-gray-100 rounded-lg"
@@ -95,8 +94,7 @@ export default function Layout() {
             <Menu className="w-6 h-6" />
           </button>
           <div className="flex items-center">
-            <img src="/logo.png" alt="Expo Snap Logo" className="w-7 h-7 mr-2" />
-            <span className="text-lg font-bold">Expo Snap</span>
+            <img src="/logo.png" alt="Expo Snap Logo" className="w-7 h-7" />
           </div>
         </header>
 

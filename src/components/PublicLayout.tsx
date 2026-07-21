@@ -83,11 +83,6 @@ export default function PublicLayout() {
               className="h-8"
               loading="eager"
             />
-            <span
-              className="text-xl font-extrabold gradient-text"
-            >
-              Expo Snap
-            </span>
           </Link>
 
           {/* Desktop Nav Links */}
